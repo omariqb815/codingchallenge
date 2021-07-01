@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Coding Challenge - Omar Iqbal</string>
+    <string name="most_popular_movies">The most popular movies from TMDB</string>
+    <string name="error_fetch_movies">Error</string>
+</resources>
