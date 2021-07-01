@@ -18,9 +18,9 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/popular_movies"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="140dp" />
-        <!--The gravity="center" line wasn't working for the recycler view
-        so I centered it manually with marginLeft-->
+        android:layout_height="match_parent"
+        android:layout_marginLeft="55dp"
+        />
+
 
 </LinearLayout>

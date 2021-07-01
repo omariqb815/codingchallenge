@@ -38,6 +38,7 @@
             android:textColor="@android:color/black"
             android:textSize="36sp"
             android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/movie_poster_card"
             tools:ignore="MissingConstraints" />
 

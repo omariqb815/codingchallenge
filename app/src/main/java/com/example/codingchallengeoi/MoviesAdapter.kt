@@ -38,8 +38,8 @@ class MoviesAdapter(
 
         fun bind(movie: Movie) {
             Glide.with(itemView)    // glide lets you load images
-                .load("https://image.tmdb.org/t/p/w185${movie.posterPath}") // image url
-                .transform(CenterCrop())    // edit image
+                .load("https://image.tmdb.org/t/p/w780${movie.posterPath}") // image url
+                .transform(CenterCrop())
                 .into(poster)   // places image in variable
             itemView.setOnClickListener { onMovieClick.invoke(movie) }
         }
